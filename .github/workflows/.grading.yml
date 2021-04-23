@@ -1,5 +1,5 @@
 name: Grading workflow
-on: [issues, page_build, workflow_dispatch]
+on: [page_build, workflow_dispatch]
 jobs:
   grade-learner:
     if: github.event_name == 'page_build'
